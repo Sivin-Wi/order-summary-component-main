@@ -24,8 +24,8 @@
 
 ### Links 🔗
 
-- Solution URL: [page]()
-- Live Site URL: [page]()
+- Solution URL: [page](https://www.frontendmentor.io/solutions/build-with-flexbox-TEZi1D_Ecl)
+- Live Site URL: [page](https://sivin-wi.github.io/order-summary-component-main/)
 
 ## My process
 
