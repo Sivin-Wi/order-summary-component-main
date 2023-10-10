@@ -1,0 +1,155 @@
+@media only screen and (max-width:375px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+
+    :root{
+        --backgroundColor: hsl(225, 100%, 94%);
+        --paraColor-paraPrice: hsl(224, 23%, 55%);
+        --buttonColor: hsl(245, 75%, 52%);
+        --buttonFont :  hsl(225, 100%, 98%);
+        --cardBgColor : hsl(225, 100%, 98%);
+        --hover2Link-HeadingColor-HeadingPlan : hsl(223, 47%, 23%);
+    }
+
+
+    @font-face {
+        font-family: 'Red Hat Display';
+        src: url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+    }
+
+
+    .section{
+        width: 100%;
+        height: 100svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--backgroundColor);
+    }
+
+
+    .container{
+        width: 328px;
+        height: 570px;
+        border-radius: 17px;
+        background-color: var(--cardBgColor);
+    }
+
+    .container > .subContainer1{
+        height: 160px;
+        background-image: url('../images/illustration-hero.svg');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+    }
+
+    .container > .subContainerMain2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+    } 
+
+    .container > .subContainerMain2 > div{
+        width: 273px;
+        height: 370px;
+    }
+
+    .container > .subContainerMain2 > div > .subContainer2-1{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container > .subContainerMain2 > div > .subContainer2-1 > .headingText > h3{
+        color: var(--hover2Link-HeadingColor-HeadingPlan);
+        font-weight: 900;
+    }
+    
+    .container > .subContainerMain2 > div > .subContainer2-1 > .paraText > p{
+        color: var(--paraColor-paraPrice);
+        line-height: 1.6;
+        font-weight: 500;
+    }
+
+    .container > .subContainerMain2 > div >.subContainer2-2 {
+        width: 100%;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container > .subContainerMain2 > div >.subContainer2-2 > div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 76px;
+        border-radius: 10px;
+        background-color:  hsl(225, 100%, 94%,0.5);
+    }
+
+
+    .container > .subContainerMain2 > div > .subContainer2-2 > div > .subContainer2-2-2{
+        line-height: 1.4;
+    }
+
+    .container > .subContainerMain2 > div > .subContainer2-2 > div > .subContainer2-2-2 > .textPlan-paraPrice > .textPlan > h5{
+        color: var(--hover2Link-HeadingColor-HeadingPlan);
+        font-weight: 900;
+    }
+    
+    .container > .subContainerMain2 > div > .subContainer2-2 > div > .subContainer2-2-2 > .textPlan-paraPrice > .paraPrice > p{
+        color: var(--paraColor-paraPrice);
+        font-weight: 500;
+    }
+
+    .container > .subContainerMain2 > div > .subContainer2-2 > div > .subContainer2-2-3 > .changeLink > a{
+        color: hsl(245, 75%, 52%);
+        font-weight: 500;
+    }
+    
+    .container > .subContainerMain2 > div > .subContainer2-3 {
+        width: 100%;
+        height: 95px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container > .subContainerMain2 > div > .subContainer2-3 > .button > button{
+        background-color: var(--buttonColor);
+        padding: 0.9em 3.13em;
+        border: none;
+        border-radius: 8px;
+        color: var(--buttonFont);
+        font-size: 1.04rem;
+        font-weight: 500;
+        box-shadow: 3px 12px 9px hsl(226, 31%, 82%);
+    }
+
+    .container > .subContainerMain2 > div >  .subContainer2-3 > .cancelOrder > a{
+        text-decoration: none;
+        color: hsl(224, 23%, 55%);
+        font-weight: 700;
+    }
+
+    .attribution{
+        position: absolute;
+        bottom: 0;
+    }
+}
